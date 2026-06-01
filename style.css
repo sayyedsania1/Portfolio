@@ -428,6 +428,11 @@ text-align:left;
 
     border-radius:1.5rem;
 }
+.project-card img:hover{
+       object-fit: contain; /* hover pe full image show */
+    background: transparent;   /* optional clean look */
+}
+
 .project-card h3{
     font-size:3rem;
 }
